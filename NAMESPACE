@@ -1,0 +1,11 @@
+exportPattern("^[[:alpha:]]+")
+export(gammaRegMisrepEM, poisRegMisrepEM, nbRegMisrepEM, LnRegMisrepEM, NormRegMisrepEM)
+importFrom(MASS, gamma.shape, glm.nb)
+importFrom(utils, combn)
+importFrom(poisson.glm.mix, mylogLikePoisMix)
+importFrom(stats, Gamma, alias, dgamma, glm, lm, sd,
+               model.matrix, nlm, pnorm, runif, terms,
+              dnbinom, dnorm, pt, dpois, poisson, complete.cases)
+S3method(summary, misrepEM)
+S3method(print, summary.misrepEM)
+S3method(predict, misrepEM)
