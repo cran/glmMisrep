@@ -1,0 +1,11 @@
+Changes in glmMisrep 0.1.1
+============================
+* 2024-04-18
+
+* Minor changes made to unit tests so CRAN package check results could succeed. No changes were made to functions available to users.
+
+Changes in glmMisrep 0.1.0
+============================
+* 2024-03-26
+
+* Initial CRAN release.

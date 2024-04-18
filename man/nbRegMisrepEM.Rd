@@ -20,7 +20,7 @@ nbRegMisrepEM(formula, v_star, data, lambda = c(0.6,0.4),
 
 \item{data}{a dataframe containing the variables in the model.}
 
-\item{lambda}{initial mixing proportions used to start the EM algorithm. A numeric vector of length two, with the second element being the prevelance of misrepresentation.}
+\item{lambda}{initial mixing proportions used to start the EM algorithm. A numeric vector of length two, with the second element being the prevalence of misrepresentation.}
 
 \item{epsilon}{tolerance for convergence. Convergence is reached when the log-likelihood increases by less than epsilon.}
 
@@ -55,7 +55,7 @@ An object of class \code{"misrepEM"} is a list containing the following 14 eleme
 
 \item{y}{the response used.}
 
-\item{lambda}{numeric. The estimated prevelance of misrepresentation.}
+\item{lambda}{numeric. The estimated prevalence of misrepresentation.}
 
 \item{params}{a numeric vector containing the estimated parameters.}
 

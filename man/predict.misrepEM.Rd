@@ -8,8 +8,7 @@ Predict method for 'misrepEM' Model Fits
 Predicted values based on a fitted 'misrepEM' model object.
 }
 \usage{
-## S3 method for class 'misrepEM'
-predict.misrepEM(object, newdata, \dots)
+\method{predict}{misrepEM}(object, newdata, \dots)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

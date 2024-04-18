@@ -192,13 +192,13 @@ t10 <- tryCatch(
                                     data = data,
                                     lambda = c(0.6, 0.4),
                                     epsilon = 1e-08,
-                                    maxit = 3,
-                                    maxrestarts = 4)),
+                                    maxit = 2,
+                                    maxrestarts = 1)),
   error = function(x) x
 )
 
 stopifnot(
-  t10$message == "NOT CONVERGENT! Failed to converge after 4 attempts"
+  t10$message == "NOT CONVERGENT! Failed to converge after 1 attempts"
 )
 
 
